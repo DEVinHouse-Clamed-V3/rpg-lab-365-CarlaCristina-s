@@ -34,7 +34,7 @@ export default class Personagem {
         console.log(this.arma.getNome() + ' Equipada')
     }
 
-    private causarDano() {
+    protected causarDano() {
         if (this.arma === null) {
             return this.forca
         } else {
